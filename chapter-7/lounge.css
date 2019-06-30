@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 { 
+    font-family: sans-serif;
+    color: gray;
+}
+
+h1 { 
+    border-bottom: 1px solid black;
+}
+
+p {
+    font-family: sans-serif;
+    color: maroon;44
+}
+
+.greentea {
+    color: green;
+}
+.raspberry {
+    color: blue
+}
+.blueberry {
+    color: purple
+}
+/*段落中改变字体并不是一个好主意。
+em {
+    font-family: serif;
+}*/

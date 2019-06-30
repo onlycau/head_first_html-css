@@ -1,0 +1,84 @@
+body {
+  font-size:           medium;
+  font-family:         Verdana, Helvetica, Arial, sans-serif;
+  line-height:         1.6em;
+}
+
+h1, h2 {
+  color:               #007e7e;
+}
+
+h1 {
+  font-size:           150%;
+}
+
+h2 {
+  font-size:           130%;
+}
+
+#guarantee {
+  line-height:         1.9em;
+  font-style:          italic;
+  font-family:         Georgia, "Times New Roman", Times, serif;
+  color:               #444444;
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px;
+  padding-left:        80px;
+  margin:              30px;
+  margin-right:        250px;
+  background-image:    url(images/background.gif);
+  background-repeat:   no-repeat;
+  background-position: top left;
+}
+
+#elixirs{
+  line-height: 1 /* 元素行高是其自己字体大小的一倍 */
+
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+
+  padding: 0px 20px 30px 10px;
+
+  margin: 0px 20px 30px 10px;
+
+  text-align: center;
+
+  background: white url(images/cocktail.gif) repeat-x;
+}
+
+#elixirs h2{
+  color: black;
+}
+#elixirs h3{
+  color: red
+}
+
+#footer{
+  font-size: 80%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px
+}
+
+.artist{
+  font-weight: bold;
+}
+.cd{
+  font-style: italic;
+}
+
+a:link{
+  color: green;
+}
+a:visited{
+  color: red;
+}
+a:hover{
+  background: #f88396;
+  color: #0d5353;
+}
