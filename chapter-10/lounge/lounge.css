@@ -49,6 +49,7 @@ h2 {
   text-align: center;
 
   background: white url(images/cocktail.gif) repeat-x;
+  float: right;
 }
 
 #elixirs h2{

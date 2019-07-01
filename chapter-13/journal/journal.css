@@ -1,0 +1,63 @@
+@font-face {
+	font-family: "Emblema One";
+	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"), 
+	     url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf"); 
+}
+body {
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       medium;
+}
+h1, h2 {
+  color:           #cc6600;
+  border-bottom:   thin dotted #888888;
+}
+h1 {
+  font-family:     "Emblema One", sans-serif;
+  font-size:       220%;
+}
+h2 {
+  font-size:       130%;
+  font-weight:     normal;
+}
+blockquote {
+  font-style:      italic;
+}
+
+table{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: thin solid black;
+  caption-side: bottom;
+  border-spacing: 0;
+}
+td, th{
+  border: thin dotted gray;
+  padding: 5px;
+}
+caption{
+  font-style: italic;
+  padding-top: 8px
+}
+
+
+/*表格样式*/
+table table th{
+  background-color: white;
+}
+
+tr:nth-child(2n+1){
+  background-color: #fcba7a;
+}
+
+td:nth-child(2n+4){
+  text-align: right;
+}
+td:nth-child(2), td:nth-child(2n+3){
+  text-align: center;
+}
+/*物品清单样式*/
+li {
+  list-style-image: url(images/backpack.gif);
+  padding-top:5px;
+  padding-left: 20px;
+}
